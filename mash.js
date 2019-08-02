@@ -17,6 +17,7 @@ console.log(getHome())
  function getChildrenCount(){
      let number = Math.floor(Math.random()*100);
      return number;
+     if(userHome == Math.floor(Math.random()*2) )
  }
- 
+
 
